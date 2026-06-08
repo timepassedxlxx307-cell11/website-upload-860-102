@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>分类总览 - 韩日经典电影库</title>
+    <meta name="description" content="韩国电影、日本电影、韩剧、日剧与高清电影分类入口，支持按栏目浏览和搜索筛选。">
+    <meta name="keywords" content="韩国电影,日本电影,韩剧,日剧,免费在线观看,高清不卡顿,字幕同步">
+    <meta property="og:title" content="分类总览 - 韩日经典电影库">
+    <meta property="og:description" content="韩国电影、日本电影、韩剧、日剧与高清电影分类入口，支持按栏目浏览和搜索筛选。">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/search-data.js" defer></script>
+    <script src="./assets/app.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="./index.html" aria-label="韩日经典电影库">
+                <span class="brand-mark">▶</span>
+                <span class="brand-text">
+                    <strong>韩日经典电影库</strong>
+                    <small>免费高清在线观看</small>
+                </span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a href="./index.html">首页</a>
+                <a href="./categories.html">分类</a>
+                <a href="./rank.html">排行榜</a>
+                <a href="./category-korea-japan-classics.html">日韩经典</a>
+                <a href="./category-hd-cinema.html">高清电影</a>
+                <a href="./category-subtitle-sync.html">字幕同步</a>
+                <a href="./category-romance-drama.html">爱情剧情</a>
+            </nav>
+            <div class="header-search">
+                <label class="sr-only" for="global-search">搜索影片</label>
+                <input id="global-search" type="search" data-global-search placeholder="搜索影片、地区、类型">
+                <div class="global-results" data-global-results></div>
+            </div>
+            <button class="mobile-toggle" type="button" aria-label="展开导航" data-mobile-toggle>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-nav" data-mobile-nav aria-label="移动导航">
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类</a>
+            <a href="./rank.html">排行榜</a>
+            <a href="./category-korea-japan-classics.html">日韩经典</a>
+            <a href="./category-hd-cinema.html">高清电影</a>
+            <a href="./category-subtitle-sync.html">字幕同步</a>
+            <a href="./category-romance-drama.html">爱情剧情</a>
+        </nav>
+    </header>
+    <main class="page-main">
+        <section class="page-hero soft-hero">
+            <div>
+                <span>Categories</span>
+                <h1>韩国日本经典电影分类总览</h1>
+                <p>按片单入口浏览电影、剧集、悬疑、动作、爱情、家庭、奇幻动画和高清热映内容，每个栏目都能进入独立页面继续筛选。</p>
+            </div>
+        </section>
+        <div class="overview-list">
+            <section class="category-overview-card">
+                <div class="overview-copy">
+                    <span>Movie Channel</span>
+                    <h2><a href="./category-korea-japan-classics.html">日韩经典</a></h2>
+                    <p>汇集韩国电影、日本电影与东亚口碑佳作，适合喜爱细腻叙事、字幕观影和经典影像质感的观众。</p>
+                    <a class="btn small" href="./category-korea-japan-classics.html">浏览片单</a>
+                </div>
+                <div class="overview-samples">
+                    <a class="inline-movie" href="./movie-32.html">
+                        <img src="./32.jpg" loading="lazy" alt="光荣的追寻第一季">
+                        <span>
+                            <strong>光荣的追寻第一季</strong>
+                            <small>2020 · 中国大陆 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-47.html">
+                        <img src="./47.jpg" loading="lazy" alt="一位站立的人">
+                        <span>
+                            <strong>一位站立的人</strong>
+                            <small>2022 · 法国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-49.html">
+                        <img src="./49.jpg" loading="lazy" alt="单挑荒野:水之章">
+                        <span>
+                            <strong>单挑荒野:水之章</strong>
+                            <small>2025 · 英国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-51.html">
+                        <img src="./51.jpg" loading="lazy" alt="宫廷音乐会">
+                        <span>
+                            <strong>宫廷音乐会</strong>
+                            <small>2025 · 奥地利 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-61.html">
+                        <img src="./61.jpg" loading="lazy" alt="死亡飞车:混乱之上">
+                        <span>
+                            <strong>死亡飞车:混乱之上</strong>
+                            <small>2025 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-74.html">
+                        <img src="./74.jpg" loading="lazy" alt="食在好源头第一季">
+                        <span>
+                            <strong>食在好源头第一季</strong>
+                            <small>2023 · 中国大陆 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-100.html">
+                        <img src="./100.jpg" loading="lazy" alt="老师早上好">
+                        <span>
+                            <strong>老师早上好</strong>
+                            <small>1994 · 中国台湾 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-102.html">
+                        <img src="./102.jpg" loading="lazy" alt="无须喝彩">
+                        <span>
+                            <strong>无须喝彩</strong>
+                            <small>2024 · 中国大陆 · 电影</small>
+                        </span>
+                    </a>
+                </div>
+            </section>
+            <section class="category-overview-card">
+                <div class="overview-copy">
+                    <span>Movie Channel</span>
+                    <h2><a href="./category-hd-cinema.html">高清电影</a></h2>
+                    <p>甄选适合高清观看的电影内容，覆盖剧情、动作、喜剧、爱情与犯罪等热门题材。</p>
+                    <a class="btn small" href="./category-hd-cinema.html">浏览片单</a>
+                </div>
+                <div class="overview-samples">
+                    <a class="inline-movie" href="./movie-13.html">
+                        <img src="./13.jpg" loading="lazy" alt="神秘博士第二季">
+                        <span>
+                            <strong>神秘博士第二季</strong>
+                            <small>2006 · 英国 · 电视剧</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-46.html">
+                        <img src="./46.jpg" loading="lazy" alt="终将成为你">
+                        <span>
+                            <strong>终将成为你</strong>
+                            <small>2025 · 日本 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-48.html">
+                        <img src="./48.jpg" loading="lazy" alt="血色海湾背后">
+                        <span>
+                            <strong>血色海湾背后</strong>
+                            <small>2024 · 日本 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-50.html">
+                        <img src="./50.jpg" loading="lazy" alt="博士之日">
+                        <span>
+                            <strong>博士之日</strong>
+                            <small>2023 · 英国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-59.html">
+                        <img src="./59.jpg" loading="lazy" alt="童话镇第七季">
+                        <span>
+                            <strong>童话镇第七季</strong>
+                            <small>2024 · 美国 · 电视剧</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-62.html">
+                        <img src="./62.jpg" loading="lazy" alt="小精灵2">
+                        <span>
+                            <strong>小精灵2</strong>
+                            <small>1990 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-71.html">
+                        <img src="./71.jpg" loading="lazy" alt="女生宿舍日常第一季">
+                        <span>
+                            <strong>女生宿舍日常第一季</strong>
+                            <small>2024 · 中国大陆 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-94.html">
+                        <img src="./94.jpg" loading="lazy" alt="厕所骑士">
+                        <span>
+                            <strong>厕所骑士</strong>
+                            <small>2023 · 日本 · 电影</small>
+                        </span>
+                    </a>
+                </div>
+            </section>
+            <section class="category-overview-card">
+                <div class="overview-copy">
+                    <span>Movie Channel</span>
+                    <h2><a href="./category-subtitle-sync.html">字幕同步</a></h2>
+                    <p>面向注重台词节奏和字幕体验的影迷，精选适合流畅追看的多地区影视作品。</p>
+                    <a class="btn small" href="./category-subtitle-sync.html">浏览片单</a>
+                </div>
+                <div class="overview-samples">
+                    <a class="inline-movie" href="./movie-1.html">
+                        <img src="./1.jpg" loading="lazy" alt="哈莉·奎茵第五季">
+                        <span>
+                            <strong>哈莉·奎茵第五季</strong>
+                            <small>2025 · 美国 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-5.html">
+                        <img src="./5.jpg" loading="lazy" alt="西部之路">
+                        <span>
+                            <strong>西部之路</strong>
+                            <small>2025 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-8.html">
+                        <img src="./8.jpg" loading="lazy" alt="听见颜色的女孩">
+                        <span>
+                            <strong>听见颜色的女孩</strong>
+                            <small>2024 · 中国大陆 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-19.html">
+                        <img src="./19.jpg" loading="lazy" alt="梅花档案">
+                        <span>
+                            <strong>梅花档案</strong>
+                            <small>2003 · 中国大陆 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-38.html">
+                        <img src="./38.jpg" loading="lazy" alt="追夫四人行">
+                        <span>
+                            <strong>追夫四人行</strong>
+                            <small>2025 · 中国大陆 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-41.html">
+                        <img src="./41.jpg" loading="lazy" alt="阴阳跨界人">
+                        <span>
+                            <strong>阴阳跨界人</strong>
+                            <small>2024 · 中国香港/中国大陆 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-54.html">
+                        <img src="./54.jpg" loading="lazy" alt="黄金枷锁">
+                        <span>
+                            <strong>黄金枷锁</strong>
+                            <small>2025 · 中国大陆 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-55.html">
+                        <img src="./55.jpg" loading="lazy" alt="寻找阿曼达">
+                        <span>
+                            <strong>寻找阿曼达</strong>
+                            <small>2024 · 英国 · 剧集</small>
+                        </span>
+                    </a>
+                </div>
+            </section>
+            <section class="category-overview-card">
+                <div class="overview-copy">
+                    <span>Movie Channel</span>
+                    <h2><a href="./category-romance-drama.html">爱情剧情</a></h2>
+                    <p>收录情感浓度高、人物关系细腻的爱情片、家庭片和现实剧情片。</p>
+                    <a class="btn small" href="./category-romance-drama.html">浏览片单</a>
+                </div>
+                <div class="overview-samples">
+                    <a class="inline-movie" href="./movie-15.html">
+                        <img src="./15.jpg" loading="lazy" alt="惠化,洞">
+                        <span>
+                            <strong>惠化,洞</strong>
+                            <small>2024 · 韩国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-18.html">
+                        <img src="./18.jpg" loading="lazy" alt="至爱梵高:不可能之梦">
+                        <span>
+                            <strong>至爱梵高:不可能之梦</strong>
+                            <small>2027 · 英国/波兰 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-20.html">
+                        <img src="./20.jpg" loading="lazy" alt="美国围攻">
+                        <span>
+                            <strong>美国围攻</strong>
+                            <small>2026 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-21.html">
+                        <img src="./21.jpg" loading="lazy" alt="迷你姑娘">
+                        <span>
+                            <strong>迷你姑娘</strong>
+                            <small>2024 · 中国内地 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-29.html">
+                        <img src="./29.jpg" loading="lazy" alt="满仓进城">
+                        <span>
+                            <strong>满仓进城</strong>
+                            <small>2023 · 中国大陆 · 电视剧</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-63.html">
+                        <img src="./63.jpg" loading="lazy" alt="特遣队出击">
+                        <span>
+                            <strong>特遣队出击</strong>
+                            <small>2024 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-68.html">
+                        <img src="./68.jpg" loading="lazy" alt="白鹭谣">
+                        <span>
+                            <strong>白鹭谣</strong>
+                            <small>2023 · 中国大陆 · 电视剧</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-75.html">
+                        <img src="./75.jpg" loading="lazy" alt="霍华德(电影)">
+                        <span>
+                            <strong>霍华德(电影)</strong>
+                            <small>2025 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                </div>
+            </section>
+            <section class="category-overview-card">
+                <div class="overview-copy">
+                    <span>Movie Channel</span>
+                    <h2><a href="./category-suspense-thriller.html">悬疑惊悚</a></h2>
+                    <p>聚焦反转、心理、密室、犯罪谜案和惊悚氛围，适合喜欢高张力故事的观众。</p>
+                    <a class="btn small" href="./category-suspense-thriller.html">浏览片单</a>
+                </div>
+                <div class="overview-samples">
+                    <a class="inline-movie" href="./movie-3.html">
+                        <img src="./3.jpg" loading="lazy" alt="神偷大盗">
+                        <span>
+                            <strong>神偷大盗</strong>
+                            <small>2025 · 中国香港 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-6.html">
+                        <img src="./6.jpg" loading="lazy" alt="喜剧王中王·前任归来">
+                        <span>
+                            <strong>喜剧王中王·前任归来</strong>
+                            <small>2024 · 中国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-23.html">
+                        <img src="./23.jpg" loading="lazy" alt="好雨知时节">
+                        <span>
+                            <strong>好雨知时节</strong>
+                            <small>2025 · 韩国/中国大陆 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-24.html">
+                        <img src="./24.jpg" loading="lazy" alt="洛基第二季">
+                        <span>
+                            <strong>洛基第二季</strong>
+                            <small>2025 · 美国 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-27.html">
+                        <img src="./27.jpg" loading="lazy" alt="我在岛屿读书">
+                        <span>
+                            <strong>我在岛屿读书</strong>
+                            <small>2022 · 中国大陆 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-35.html">
+                        <img src="./35.jpg" loading="lazy" alt="夜半梳头">
+                        <span>
+                            <strong>夜半梳头</strong>
+                            <small>2014 · 中国香港 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-42.html">
+                        <img src="./42.jpg" loading="lazy" alt="索西">
+                        <span>
+                            <strong>索西</strong>
+                            <small>2024 · 法国/塞内加尔 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-44.html">
+                        <img src="./44.jpg" loading="lazy" alt="银莲花">
+                        <span>
+                            <strong>银莲花</strong>
+                            <small>2025 · 韩国 · 电影</small>
+                        </span>
+                    </a>
+                </div>
+            </section>
+            <section class="category-overview-card">
+                <div class="overview-copy">
+                    <span>Movie Channel</span>
+                    <h2><a href="./category-action-crime.html">动作犯罪</a></h2>
+                    <p>集合动作场面、警匪追逐、黑色犯罪和高能对决，带来节奏紧凑的观影体验。</p>
+                    <a class="btn small" href="./category-action-crime.html">浏览片单</a>
+                </div>
+                <div class="overview-samples">
+                    <a class="inline-movie" href="./movie-4.html">
+                        <img src="./4.jpg" loading="lazy" alt="天上的孩子">
+                        <span>
+                            <strong>天上的孩子</strong>
+                            <small>2023 · 中国大陆 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-7.html">
+                        <img src="./7.jpg" loading="lazy" alt="小妇人粤语">
+                        <span>
+                            <strong>小妇人粤语</strong>
+                            <small>2025 · 中国香港 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-11.html">
+                        <img src="./11.jpg" loading="lazy" alt="出发吧!我的脱单假期">
+                        <span>
+                            <strong>出发吧!我的脱单假期</strong>
+                            <small>2024 · 中国大陆 · 网络剧</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-26.html">
+                        <img src="./26.jpg" loading="lazy" alt="机械人间">
+                        <span>
+                            <strong>机械人间</strong>
+                            <small>2023 · 日本 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-28.html">
+                        <img src="./28.jpg" loading="lazy" alt="小甘罗拜相粤语">
+                        <span>
+                            <strong>小甘罗拜相粤语</strong>
+                            <small>1987 · 中国香港 · 电视剧</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-39.html">
+                        <img src="./39.jpg" loading="lazy" alt="出尔反尔">
+                        <span>
+                            <strong>出尔反尔</strong>
+                            <small>2025 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-73.html">
+                        <img src="./73.jpg" loading="lazy" alt="寂静之地:入侵日">
+                        <span>
+                            <strong>寂静之地:入侵日</strong>
+                            <small>2024 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-82.html">
+                        <img src="./82.jpg" loading="lazy" alt="心灵的深夜对话">
+                        <span>
+                            <strong>心灵的深夜对话</strong>
+                            <small>2025 · 日本 · 剧集</small>
+                        </span>
+                    </a>
+                </div>
+            </section>
+            <section class="category-overview-card">
+                <div class="overview-copy">
+                    <span>Movie Channel</span>
+                    <h2><a href="./category-fantasy-animation.html">奇幻动画</a></h2>
+                    <p>包含动画、奇幻、科幻、冒险和超现实类型，适合寻找想象力与视觉奇观的观众。</p>
+                    <a class="btn small" href="./category-fantasy-animation.html">浏览片单</a>
+                </div>
+                <div class="overview-samples">
+                    <a class="inline-movie" href="./movie-22.html">
+                        <img src="./22.jpg" loading="lazy" alt="莫斯科不相信眼泪">
+                        <span>
+                            <strong>莫斯科不相信眼泪</strong>
+                            <small>2025 · 俄罗斯 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-31.html">
+                        <img src="./31.jpg" loading="lazy" alt="赤脚鸣声">
+                        <span>
+                            <strong>赤脚鸣声</strong>
+                            <small>2024 · 日本 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-43.html">
+                        <img src="./43.jpg" loading="lazy" alt="最后一班车">
+                        <span>
+                            <strong>最后一班车</strong>
+                            <small>2023 · 中国大陆 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-85.html">
+                        <img src="./85.jpg" loading="lazy" alt="生存欲望">
+                        <span>
+                            <strong>生存欲望</strong>
+                            <small>2022 · 韩国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-92.html">
+                        <img src="./92.jpg" loading="lazy" alt="迷盲">
+                        <span>
+                            <strong>迷盲</strong>
+                            <small>2021 · 俄罗斯 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-108.html">
+                        <img src="./108.jpg" loading="lazy" alt="喜剧大过天">
+                        <span>
+                            <strong>喜剧大过天</strong>
+                            <small>1993 · 中国香港 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-110.html">
+                        <img src="./110.jpg" loading="lazy" alt="丑女也疯狂">
+                        <span>
+                            <strong>丑女也疯狂</strong>
+                            <small>2024 · 中国大陆 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-127.html">
+                        <img src="./127.jpg" loading="lazy" alt="电脑奇侠重启">
+                        <span>
+                            <strong>电脑奇侠重启</strong>
+                            <small>2024 · 日本 · 电影</small>
+                        </span>
+                    </a>
+                </div>
+            </section>
+            <section class="category-overview-card">
+                <div class="overview-copy">
+                    <span>Movie Channel</span>
+                    <h2><a href="./category-family-healing.html">家庭治愈</a></h2>
+                    <p>精选家庭、成长、治愈、励志和温情作品，适合轻松观看与长线收藏。</p>
+                    <a class="btn small" href="./category-family-healing.html">浏览片单</a>
+                </div>
+                <div class="overview-samples">
+                    <a class="inline-movie" href="./movie-16.html">
+                        <img src="./16.jpg" loading="lazy" alt="愿来世为他人">
+                        <span>
+                            <strong>愿来世为他人</strong>
+                            <small>2024 · 日本 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-25.html">
+                        <img src="./25.jpg" loading="lazy" alt="夜幕降临">
+                        <span>
+                            <strong>夜幕降临</strong>
+                            <small>2023 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-30.html">
+                        <img src="./30.jpg" loading="lazy" alt="山村大爷">
+                        <span>
+                            <strong>山村大爷</strong>
+                            <small>2012 · 中国大陆 · 电视剧</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-34.html">
+                        <img src="./34.jpg" loading="lazy" alt="一个卡拉布里的孩子">
+                        <span>
+                            <strong>一个卡拉布里的孩子</strong>
+                            <small>2023 · 意大利 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-45.html">
+                        <img src="./45.jpg" loading="lazy" alt="疯狂的旅行箱">
+                        <span>
+                            <strong>疯狂的旅行箱</strong>
+                            <small>2025 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-56.html">
+                        <img src="./56.jpg" loading="lazy" alt="绝 ‧ 种">
+                        <span>
+                            <strong>绝 ‧ 种</strong>
+                            <small>2025 · 日本 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-66.html">
+                        <img src="./66.jpg" loading="lazy" alt="夏威夷海上大将">
+                        <span>
+                            <strong>夏威夷海上大将</strong>
+                            <small>1966 · 日本 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-76.html">
+                        <img src="./76.jpg" loading="lazy" alt="丛林大反攻2">
+                        <span>
+                            <strong>丛林大反攻2</strong>
+                            <small>2012 · 美国 · 动画电影</small>
+                        </span>
+                    </a>
+                </div>
+            </section>
+            <section class="category-overview-card">
+                <div class="overview-copy">
+                    <span>Movie Channel</span>
+                    <h2><a href="./category-global-series.html">剧集片库</a></h2>
+                    <p>覆盖剧集、动画剧集、网络剧与系列化内容，方便持续追看和按主题浏览。</p>
+                    <a class="btn small" href="./category-global-series.html">浏览片单</a>
+                </div>
+                <div class="overview-samples">
+                    <a class="inline-movie" href="./movie-9.html">
+                        <img src="./9.jpg" loading="lazy" alt="串珠">
+                        <span>
+                            <strong>串珠</strong>
+                            <small>2025 · 中国大陆 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-10.html">
+                        <img src="./10.jpg" loading="lazy" alt="发条城市">
+                        <span>
+                            <strong>发条城市</strong>
+                            <small>2024 · 中国大陆 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-14.html">
+                        <img src="./14.jpg" loading="lazy" alt="换汇者">
+                        <span>
+                            <strong>换汇者</strong>
+                            <small>2024 · 中国香港 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-36.html">
+                        <img src="./36.jpg" loading="lazy" alt="旋涡1949">
+                        <span>
+                            <strong>旋涡1949</strong>
+                            <small>2025 · 中国大陆 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-37.html">
+                        <img src="./37.jpg" loading="lazy" alt="喋血外星人">
+                        <span>
+                            <strong>喋血外星人</strong>
+                            <small>2025 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-40.html">
+                        <img src="./40.jpg" loading="lazy" alt="奇人奇案">
+                        <span>
+                            <strong>奇人奇案</strong>
+                            <small>2001 · 中国香港 · 剧集</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-57.html">
+                        <img src="./57.jpg" loading="lazy" alt="玫瑰园">
+                        <span>
+                            <strong>玫瑰园</strong>
+                            <small>2024 · 英国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-58.html">
+                        <img src="./58.jpg" loading="lazy" alt="金都">
+                        <span>
+                            <strong>金都</strong>
+                            <small>2019 · 香港 · 电影</small>
+                        </span>
+                    </a>
+                </div>
+            </section>
+            <section class="category-overview-card">
+                <div class="overview-copy">
+                    <span>Movie Channel</span>
+                    <h2><a href="./category-hot-rank-list.html">口碑片单</a></h2>
+                    <p>从题材热度、年份、标签与相关推荐中挑选适合优先观看的热门内容。</p>
+                    <a class="btn small" href="./category-hot-rank-list.html">浏览片单</a>
+                </div>
+                <div class="overview-samples">
+                    <a class="inline-movie" href="./movie-2.html">
+                        <img src="./2.jpg" loading="lazy" alt="盲女情">
+                        <span>
+                            <strong>盲女情</strong>
+                            <small>2025 · 印度 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-12.html">
+                        <img src="./12.jpg" loading="lazy" alt="甜蜜的生活">
+                        <span>
+                            <strong>甜蜜的生活</strong>
+                            <small>1960 · 意大利 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-17.html">
+                        <img src="./17.jpg" loading="lazy" alt="刀口舐血">
+                        <span>
+                            <strong>刀口舐血</strong>
+                            <small>2025 · 中国台湾 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-33.html">
+                        <img src="./33.jpg" loading="lazy" alt="索妮">
+                        <span>
+                            <strong>索妮</strong>
+                            <small>2018 · 印度 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-53.html">
+                        <img src="./53.jpg" loading="lazy" alt="换换新人生">
+                        <span>
+                            <strong>换换新人生</strong>
+                            <small>2025 · 意大利 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-65.html">
+                        <img src="./65.jpg" loading="lazy" alt="黄雀在后!">
+                        <span>
+                            <strong>黄雀在后!</strong>
+                            <small>2024 · 中国大陆 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-79.html">
+                        <img src="./79.jpg" loading="lazy" alt="神通魔法石">
+                        <span>
+                            <strong>神通魔法石</strong>
+                            <small>2027 · 英国 · 电影</small>
+                        </span>
+                    </a>
+                    <a class="inline-movie" href="./movie-86.html">
+                        <img src="./86.jpg" loading="lazy" alt="致命摇篮">
+                        <span>
+                            <strong>致命摇篮</strong>
+                            <small>2014 · 美国 · 电影</small>
+                        </span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <a class="footer-brand" href="./index.html">韩日经典电影库</a>
+                <p>韩国日本经典电影资源库：免费在线观看、高码率高清不卡顿与字幕同步观看体验攻略</p>
+            </div>
+            <div>
+                <h2>频道入口</h2>
+                <div class="footer-links">
+                    <a href="./index.html">首页</a>
+                    <a href="./categories.html">分类</a>
+                    <a href="./rank.html">排行榜</a>
+                </div>
+            </div>
+            <div>
+                <h2>片库分类</h2>
+                <div class="footer-links compact-links"><a href="./category-korea-japan-classics.html">日韩经典</a><a href="./category-hd-cinema.html">高清电影</a><a href="./category-subtitle-sync.html">字幕同步</a><a href="./category-romance-drama.html">爱情剧情</a><a href="./category-suspense-thriller.html">悬疑惊悚</a><a href="./category-action-crime.html">动作犯罪</a><a href="./category-fantasy-animation.html">奇幻动画</a><a href="./category-family-healing.html">家庭治愈</a><a href="./category-global-series.html">剧集片库</a><a href="./category-hot-rank-list.html">口碑片单</a></div>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 韩日经典电影库 · 高清不卡顿 · 字幕同步</div>
+    </footer>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</body>
+</html>
